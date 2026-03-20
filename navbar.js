@@ -1,8 +1,8 @@
 document.querySelector("#nav-bar").innerHTML = `
     <div id="navbar-container">
-      <a href="/">Search API &#x25CF;</a>
-      <a href="/answerApi/">Answer Manager Config &#x25CF;</a> 
-      <a href="/conversational/">Conversational Experience &#x25CF;</a> 
+      <a href="/">&#x2605; Search API</a>
+      <a href="/answerApi/">&#x2605; Answer Manager Config</a> 
+      <a href="/conversational/">&#x2605; Conversational Experience</a> 
   
     </div>
   `;
