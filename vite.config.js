@@ -5,7 +5,7 @@ export default {
       input: {
         main: "index.html",
         answerApi: "answerApi/index.html",
-        conversational: "conversational/index.html",
+        searchApi: "searchApi/index.html",
       },
     },
   },
