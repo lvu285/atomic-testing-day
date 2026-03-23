@@ -2,8 +2,7 @@ document.querySelector("#nav-bar").innerHTML = `
     <div id="navbar-container">
       <a href="/">&#x2605; Conversational</a>
       <a href="/answerApi/">&#x2605; AnswerAPI</a> 
-      <a href="/searchApi/">&#x2605; SearchAPI</a> 
-  
+      <a href="/searchApi/">&#x2605; SearchAPI</a>   
     </div>
   `;
 
