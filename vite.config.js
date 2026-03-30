@@ -6,6 +6,7 @@ export default {
         main: "index.html",
         answerApi: "answerApi/index.html",
         searchApi: "searchApi/index.html",
+        conversationalProd: "conversationalProd/index.html",
       },
     },
   },
