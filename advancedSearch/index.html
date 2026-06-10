@@ -31,8 +31,7 @@
           searchEngine,
         ).updateAdvancedSearchQueries({
           aq: '@source="Coveo Docs" OR @filetype=(txt,YouTubeVideo)',
-          cq: "@year==(2023,2024,2025)",
-          lq:"Coveo search hub"
+          cq: "@year==(2023,2024,2025)"
         });
         searchEngine.dispatch(action);
         searchInterface.executeFirstSearch();
