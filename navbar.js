@@ -1,9 +1,12 @@
 document.querySelector("#nav-bar").innerHTML = `
     <div id="navbar-container">
-      <a href="/">&#x2605; Conversational</a>
-      <a href="/answerApi/">&#x2605; AnswerAPI</a> 
-      <a href="/searchApi/">&#x2605; SearchAPI</a>   
-      <a href="/conversationalProd/">&#x2605; Conversational-Prod</a>
+      <a href="/">Conversational</a>
+      <a href="/advancedSearch/">Advanced Search</a> 
+      <a href="/contextSearch/">Context Search</a> 
+      <a href="/staticFilter/">Static Filter</a> 
+      <a href="/answerApi/">AnswerAPI</a> 
+      <a href="/searchApi/">SearchAPI</a>   
+      <a href="/conversationalProd/">Conversational-Prod</a>
     </div>
   `;
 
