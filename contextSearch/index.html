@@ -7,17 +7,17 @@
     <!-- Import Atomic library via CDN -->
     <script
       type="module"
-      src="https://staticdev.cloud.coveo.com/atomic/v3/atomic.esm.js"
+      src="https://static.cloud.coveo.com/atomic/v3/atomic.esm.js"
     ></script>
     <!-- Import the default stylesheet for the framework -->
     <link
       rel="stylesheet"
-      href="https://staticdev.cloud.coveo.com/atomic/v3/themes/coveo.css"
+      href="https://static.cloud.coveo.com/atomic/v3/themes/coveo.css"
     />
 
     <script type="module">
       import { searchEngine } from "../engine.js";
-      import { loadContextActions } from "https://staticdev.cloud.coveo.com/headless/v3/headless.esm.js";
+      import { loadContextActions } from "https://static.cloud.coveo.com/headless/v3/headless.esm.js";
 
       (async () => {
         await customElements.whenDefined("atomic-search-interface");
@@ -60,8 +60,8 @@
     <div id="nav-bar"></div>
     <atomic-search-interface
       fields-to-include='["snrating", "sncost"]'
-      language-assets-path="https://staticdev.cloud.coveo.com/atomic/v3/lang"
-      icon-assets-path="https://staticdev.cloud.coveo.com/atomic/v3/assets"
+      language-assets-path="https://static.cloud.coveo.com/atomic/v3/lang"
+      icon-assets-path="https://static.cloud.coveo.com/atomic/v3/assets"
     >
       <atomic-search-layout>
         <div class="header-bg"></div>
