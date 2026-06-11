@@ -45,9 +45,8 @@
             values: [pdf],
           },
         });
-        searchInterface.executeFirstSearch();
-      
         staticFilterController.toggleSelect(pdf);
+        searchInterface.executeFirstSearch();
 
       })();
     </script>
@@ -77,7 +76,7 @@
       <atomic-search-layout>
         <div class="header-bg"></div>
         <atomic-layout-section section="search" expanding>
-          <atomic-search-box></atomic-search-box>
+          <atomic-search-box clear-filters="false"></atomic-search-box>
         </atomic-layout-section>
 
         <atomic-layout-section section="facets">
